@@ -1,0 +1,21 @@
+{
+  "model_name": "DL: EfficientNetB0",
+  "keras_files": [
+    "model_0.keras"
+  ],
+  "class_names": [
+    "dermIS",
+    "dermis",
+    "dermquest"
+  ],
+  "img_size": 224,
+  "use_tta": true,
+  "last_conv": "top_activation",
+  "positive_class": null,
+  "test_metrics": {
+    "accuracy": 0.8548387096774194,
+    "f1_macro": 0.7004065040650406,
+    "recall_macro": 0.7080988117573485,
+    "precision_macro": 0.8609328198545144
+  }
+}
